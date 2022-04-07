@@ -215,6 +215,7 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<CommonModule>ОченьНужныйМодуль</CommonModule>
 			<Catalog>Симптомы</Catalog>
 			<Catalog>Противопоказания</Catalog>
 			<Catalog>ДопХарактиристикиПациента</Catalog>
