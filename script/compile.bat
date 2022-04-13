@@ -10,5 +10,8 @@ call restoreIB.bat
 echo Load src into 1C base
 
 %PROGRAMM% DESIGNER /F %BINDIR% /N%USER% /LoadConfigFromFiles  %SRCDIR% 
+%PROGRAMM% DESIGNER /F %BINDIR% /N%USER% /UpdateDBCfg
+
+
 
 
