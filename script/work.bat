@@ -4,7 +4,7 @@ set CURDIR=%~dp0..\
 set BINDIR=%CURDIR%bin
 set USER=dev
 
-call compile.bat
+call vanessa.bat
 echo Run designer
 
 
