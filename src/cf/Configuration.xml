@@ -215,6 +215,8 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
+			<Subsystem>Справочники</Subsystem>
+			<Role>ПолныеПрава</Role>
 			<Catalog>Симптомы</Catalog>
 			<Catalog>Противопоказания</Catalog>
 			<Catalog>ДопХарактиристикиПациента</Catalog>
