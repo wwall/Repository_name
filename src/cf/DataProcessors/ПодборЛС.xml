@@ -1,15 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Role uuid="a2e3488e-9d63-4088-a9d2-9a22de9fb417">
+	<DataProcessor uuid="f0d3f8f0-faee-4705-ba58-25f905d66f16">
+		<InternalInfo>
+			<xr:GeneratedType name="DataProcessorObject.ПодборЛС" category="Object">
+				<xr:TypeId>56a31e7d-224b-47d2-bdcd-45d78ebabce8</xr:TypeId>
+				<xr:ValueId>b3f86a0d-036e-47a8-ab92-5e9c263009c8</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DataProcessorManager.ПодборЛС" category="Manager">
+				<xr:TypeId>ba089eb4-26c2-47b0-abaf-2289105d1844</xr:TypeId>
+				<xr:ValueId>b771dd8d-9621-4b0d-8cfe-4a2fe374a990</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
 		<Properties>
-			<Name>ПолныеПрава</Name>
+			<Name>ПодборЛС</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Полные права</v8:content>
+					<v8:content>Подбор ЛС</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
+			<UseStandardCommands>true</UseStandardCommands>
+			<DefaultForm>DataProcessor.ПодборЛС.Form.Форма</DefaultForm>
+			<AuxiliaryForm/>
+			<IncludeHelpInContents>false</IncludeHelpInContents>
+			<ExtendedPresentation/>
+			<Explanation/>
 		</Properties>
-	</Role>
+		<ChildObjects>
+			<Form>Форма</Form>
+		</ChildObjects>
+	</DataProcessor>
 </MetaDataObject>

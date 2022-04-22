@@ -1,0 +1,214 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="ГруппаДобавление" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа добавление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>Vertical</Group>
+			<ExtendedTooltip name="ГруппаДобавлениеРасширеннаяПодсказка" id="4"/>
+			<ChildItems>
+				<PictureDecoration name="Декорация1" id="5">
+					<Width>1</Width>
+					<AutoMaxWidth>false</AutoMaxWidth>
+					<Height>1</Height>
+					<AutoMaxHeight>false</AutoMaxHeight>
+					<ContextMenu name="Декорация1КонтекстноеМеню" id="6"/>
+					<ExtendedTooltip name="Декорация1РасширеннаяПодсказка" id="7"/>
+				</PictureDecoration>
+				<UsualGroup name="ГруппаКнопки" id="10">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кнопки</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа кнопки</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="11"/>
+					<ChildItems>
+						<Button name="ДобавитьСхемыЛечения" id="8">
+							<Type>UsualButton</Type>
+							<Width>30</Width>
+							<Height>5</Height>
+							<CommandName>Form.Command.ДобавитьСхемыЛечения</CommandName>
+							<BackColor>#F0FFD9</BackColor>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+							<ExtendedTooltip name="ДобавитьСхемыЛеченияРасширеннаяПодсказка" id="9"/>
+						</Button>
+						<PictureDecoration name="Декорация2" id="12">
+							<Width>1</Width>
+							<Height>1</Height>
+							<ContextMenu name="Декорация2КонтекстноеМеню" id="13"/>
+							<ExtendedTooltip name="Декорация2РасширеннаяПодсказка" id="14"/>
+						</PictureDecoration>
+						<Button name="ДобавитьАналоги" id="1">
+							<Type>UsualButton</Type>
+							<Width>30</Width>
+							<Height>5</Height>
+							<CommandName>Form.Command.ДобавитьАналоги</CommandName>
+							<BackColor>#F0FFD9</BackColor>
+							<Font ref="style:NormalTextFont" height="12" kind="StyleItem"/>
+							<ExtendedTooltip name="ДобавитьАналогиРасширеннаяПодсказка" id="2"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+				<PictureDecoration name="Декорация4" id="25">
+					<Width>1</Width>
+					<Height>1</Height>
+					<ContextMenu name="Декорация4КонтекстноеМеню" id="26"/>
+					<ExtendedTooltip name="Декорация4РасширеннаяПодсказка" id="27"/>
+				</PictureDecoration>
+				<UsualGroup name="ГруппаСозданиеСтандартныхСправочников" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Создание стандартных справочников</v8:content>
+						</v8:item>
+					</Title>
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Группа создание стандартных справочников</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Behavior>Collapsible</Behavior>
+					<ControlRepresentation>Picture</ControlRepresentation>
+					<ExtendedTooltip name="ГруппаСозданиеСтандартныхСправочниковРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<UsualGroup name="ГруппаВЕРТИКАЛЬНОСозданиеСтандартныхСправочников" id="23">
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ВЕРТИКАЛЬНОСоздание стандартных справочников</v8:content>
+								</v8:item>
+							</Title>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>Группа ВЕРТИКАЛЬНОСоздание стандартных справочников</v8:content>
+								</v8:item>
+							</ToolTip>
+							<Group>Vertical</Group>
+							<Representation>None</Representation>
+							<ShowTitle>false</ShowTitle>
+							<ExtendedTooltip name="ГруппаВЕРТИКАЛЬНОСозданиеСтандартныхСправочниковРасширеннаяПодсказка" id="24"/>
+							<ChildItems>
+								<PictureDecoration name="Декорация3" id="17">
+									<Width>1</Width>
+									<Height>1</Height>
+									<ContextMenu name="Декорация3КонтекстноеМеню" id="18"/>
+									<ExtendedTooltip name="Декорация3РасширеннаяПодсказка" id="19"/>
+								</PictureDecoration>
+								<UsualGroup name="ГруппаГОРИЗОНТАЛЬНОСозданиеСтандартныхСправочников" id="28">
+									<Title>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ГОРИЗОНТАЛЬНОСоздание стандартных справочников</v8:content>
+										</v8:item>
+									</Title>
+									<ToolTip>
+										<v8:item>
+											<v8:lang>ru</v8:lang>
+											<v8:content>Группа ГОРИЗОНТАЛЬНОСоздание стандартных справочников</v8:content>
+										</v8:item>
+									</ToolTip>
+									<Group>AlwaysHorizontal</Group>
+									<Representation>None</Representation>
+									<ShowTitle>false</ShowTitle>
+									<ExtendedTooltip name="ГруппаГОРИЗОНТАЛЬНОСозданиеСтандартныхСправочниковРасширеннаяПодсказка" id="29"/>
+									<ChildItems>
+										<LabelDecoration name="ПерейтиКСозданиюПрепарата" id="20">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Перейти к созданию препарата</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="ПерейтиКСозданиюПрепаратаКонтекстноеМеню" id="21"/>
+											<ExtendedTooltip name="ПерейтиКСозданиюПрепаратаРасширеннаяПодсказка" id="22"/>
+										</LabelDecoration>
+										<PictureDecoration name="Декорация5" id="33">
+											<Width>1</Width>
+											<Height>1</Height>
+											<ContextMenu name="Декорация5КонтекстноеМеню" id="34"/>
+											<ExtendedTooltip name="Декорация5РасширеннаяПодсказка" id="35"/>
+										</PictureDecoration>
+										<LabelDecoration name="ПерейтиКСозданиюКомпонента" id="30">
+											<Title formatted="false">
+												<v8:item>
+													<v8:lang>ru</v8:lang>
+													<v8:content>Перейти к созданию компонента</v8:content>
+												</v8:item>
+											</Title>
+											<Hyperlink>true</Hyperlink>
+											<ContextMenu name="ПерейтиКСозданиюКомпонентаКонтекстноеМеню" id="31"/>
+											<ExtendedTooltip name="ПерейтиКСозданиюКомпонентаРасширеннаяПодсказка" id="32"/>
+										</LabelDecoration>
+									</ChildItems>
+								</UsualGroup>
+							</ChildItems>
+						</UsualGroup>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ВводДанныхВБазу</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ДобавитьАналоги" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить аналоги л/с</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить аналоги</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ДобавитьАналоги</Action>
+		</Command>
+		<Command name="ДобавитьСхемыЛечения" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить схемы лечения</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Добавить схемы лечения</v8:content>
+				</v8:item>
+			</ToolTip>
+		</Command>
+	</Commands>
+</Form>

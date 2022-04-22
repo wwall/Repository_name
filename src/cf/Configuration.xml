@@ -198,7 +198,7 @@
 			<MobileApplicationURLs/>
 			<MainClientApplicationWindowMode>Normal</MainClientApplicationWindowMode>
 			<DefaultInterface/>
-			<DefaultStyle/>
+			<DefaultStyle>Style.Стиль</DefaultStyle>
 			<DefaultLanguage>Language.Русский</DefaultLanguage>
 			<BriefInformation/>
 			<DetailedInformation/>
@@ -215,7 +215,11 @@
 		</Properties>
 		<ChildObjects>
 			<Language>Русский</Language>
-			<Subsystem>Справочники</Subsystem>
+			<Subsystem>СправочнаяИнформация</Subsystem>
+			<Subsystem>ВводДанныхЛечения</Subsystem>
+			<Subsystem>Отчеты</Subsystem>
+			<Subsystem>Администрирование</Subsystem>
+			<Style>Стиль</Style>
 			<Role>ПолныеПрава</Role>
 			<Catalog>Симптомы</Catalog>
 			<Catalog>Противопоказания</Catalog>
@@ -223,9 +227,19 @@
 			<Catalog>Диагнозы</Catalog>
 			<Catalog>Препараты</Catalog>
 			<Catalog>СхемаЛечения</Catalog>
+			<Catalog>Компоненты</Catalog>
+			<Catalog>Пользователи</Catalog>
+			<Catalog>Пациенты</Catalog>
+			<Catalog>ФизЛица</Catalog>
 			<Document>СхемаЛеченияКонкретногоПациента</Document>
 			<Enum>Пол</Enum>
 			<Enum>СостояниеЗдоровья</Enum>
+			<Enum>КлассыПрепаратов</Enum>
+			<Enum>ФормыВыпуска</Enum>
+			<DataProcessor>ПоискАналогов</DataProcessor>
+			<DataProcessor>ВводДанныхПациента</DataProcessor>
+			<DataProcessor>ПодборЛС</DataProcessor>
+			<DataProcessor>ВводДанныхВБазу</DataProcessor>
 			<InformationRegister>РезультатЛечения</InformationRegister>
 		</ChildObjects>
 	</Configuration>

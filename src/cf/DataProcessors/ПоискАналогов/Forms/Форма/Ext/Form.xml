@@ -1,0 +1,390 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="OnOpen">ПриОткрытии</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Препарат" id="14">
+			<DataPath>Объект.Препарат</DataPath>
+			<ClearButton>false</ClearButton>
+			<ContextMenu name="ПрепаратКонтекстноеМеню" id="15"/>
+			<ExtendedTooltip name="ПрепаратРасширеннаяПодсказка" id="16"/>
+			<Events>
+				<Event name="OnChange">ПрепаратПриИзменении</Event>
+				<Event name="Clearing">ПрепаратОчистка</Event>
+			</Events>
+		</InputField>
+		<UsualGroup name="ГруппаДженерикАналог" id="10">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дженерик аналог</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа дженерик аналог</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаДженерикАналогРасширеннаяПодсказка" id="11"/>
+			<ChildItems>
+				<CheckBoxField name="Дженерик" id="7">
+					<DataPath>Дженерик</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="ДженерикКонтекстноеМеню" id="8"/>
+					<ExtendedTooltip name="ДженерикРасширеннаяПодсказка" id="9"/>
+					<Events>
+						<Event name="OnChange">ДженерикПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+				<CheckBoxField name="Аналог" id="4">
+					<DataPath>Аналог</DataPath>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="АналогКонтекстноеМеню" id="5"/>
+					<ExtendedTooltip name="АналогРасширеннаяПодсказка" id="6"/>
+					<Events>
+						<Event name="OnChange">АналогПриИзменении</Event>
+					</Events>
+				</CheckBoxField>
+			</ChildItems>
+		</UsualGroup>
+		<UsualGroup name="ГруппаКнопки" id="44">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопки</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа кнопки</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Group>AlwaysHorizontal</Group>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаКнопкиРасширеннаяПодсказка" id="45"/>
+			<ChildItems>
+				<Button name="ФормаПоиск" id="12">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.Поиск</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.AppearanceDownArrowGray</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ФормаПоискРасширеннаяПодсказка" id="13"/>
+				</Button>
+				<Button name="ОчиститьВыбор" id="46">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.ОчиститьВыбор</CommandName>
+					<Picture>
+						<xr:Ref>StdPicture.AppearanceCircleEmpty</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ОчиститьВыборРасширеннаяПодсказка" id="47"/>
+				</Button>
+				<Button name="Печать" id="42">
+					<Type>UsualButton</Type>
+					<Representation>PictureAndText</Representation>
+					<CommandName>Form.Command.Печать</CommandName>
+					<Font ref="style:NormalTextFont" kind="StyleItem"/>
+					<Picture>
+						<xr:Ref>StdPicture.Print</xr:Ref>
+						<xr:LoadTransparent>true</xr:LoadTransparent>
+					</Picture>
+					<ExtendedTooltip name="ПечатьРасширеннаяПодсказка" id="43"/>
+				</Button>
+			</ChildItems>
+		</UsualGroup>
+		<Table name="СписокПрепаратов" id="17">
+			<Representation>List</Representation>
+			<AutoInsertNewRow>true</AutoInsertNewRow>
+			<EnableStartDrag>true</EnableStartDrag>
+			<EnableDrag>true</EnableDrag>
+			<DataPath>СписокПрепаратов</DataPath>
+			<RowFilter xsi:nil="true"/>
+			<ContextMenu name="СписокПрепаратовКонтекстноеМеню" id="18"/>
+			<AutoCommandBar name="СписокПрепаратовКоманднаяПанель" id="19">
+				<Autofill>false</Autofill>
+			</AutoCommandBar>
+			<ExtendedTooltip name="СписокПрепаратовРасширеннаяПодсказка" id="20"/>
+			<SearchStringAddition name="СписокПрепаратовСтрокаПоиска" id="21">
+				<AdditionSource>
+					<Item>СписокПрепаратов</Item>
+					<Type>SearchStringRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокПрепаратовСтрокаПоискаКонтекстноеМеню" id="22"/>
+				<ExtendedTooltip name="СписокПрепаратовСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+			</SearchStringAddition>
+			<ViewStatusAddition name="СписокПрепаратовСостояниеПросмотра" id="24">
+				<AdditionSource>
+					<Item>СписокПрепаратов</Item>
+					<Type>ViewStatusRepresentation</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокПрепаратовСостояниеПросмотраКонтекстноеМеню" id="25"/>
+				<ExtendedTooltip name="СписокПрепаратовСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+			</ViewStatusAddition>
+			<SearchControlAddition name="СписокПрепаратовУправлениеПоиском" id="27">
+				<AdditionSource>
+					<Item>СписокПрепаратов</Item>
+					<Type>SearchControl</Type>
+				</AdditionSource>
+				<ContextMenu name="СписокПрепаратовУправлениеПоискомКонтекстноеМеню" id="28"/>
+				<ExtendedTooltip name="СписокПрепаратовУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+			</SearchControlAddition>
+			<Events>
+				<Event name="OnChange">СписокПрепаратовПриИзменении</Event>
+			</Events>
+			<ChildItems>
+				<InputField name="СписокПрепаратовПрепарат" id="30">
+					<DataPath>СписокПрепаратов.Препарат</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокПрепаратовПрепаратКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СписокПрепаратовПрепаратРасширеннаяПодсказка" id="32"/>
+				</InputField>
+				<CheckBoxField name="СписокПрепаратовАналог" id="33">
+					<DataPath>СписокПрепаратов.Аналог</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокПрепаратовАналогКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="СписокПрепаратовАналогРасширеннаяПодсказка" id="35"/>
+				</CheckBoxField>
+				<InputField name="СписокПрепаратовПриоритет" id="36">
+					<DataPath>СписокПрепаратов.Приоритет</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<ContextMenu name="СписокПрепаратовПриоритетКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="СписокПрепаратовПриоритетРасширеннаяПодсказка" id="38"/>
+				</InputField>
+				<CheckBoxField name="СписокПрепаратовДженерик" id="39">
+					<DataPath>СписокПрепаратов.Дженерик</DataPath>
+					<EditMode>EnterOnInput</EditMode>
+					<CheckBoxType>Auto</CheckBoxType>
+					<ContextMenu name="СписокПрепаратовДженерикКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="СписокПрепаратовДженерикРасширеннаяПодсказка" id="41"/>
+				</CheckBoxField>
+			</ChildItems>
+		</Table>
+		<UsualGroup name="ГруппаПодвал" id="53">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Группа подвал</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Representation>None</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="ГруппаПодвалРасширеннаяПодсказка" id="54"/>
+			<ChildItems>
+				<InputField name="Составитель" id="48">
+					<DataPath>Составитель</DataPath>
+					<ContextMenu name="СоставительКонтекстноеМеню" id="49"/>
+					<ExtendedTooltip name="СоставительРасширеннаяПодсказка" id="50"/>
+				</InputField>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DataProcessorObject.ПоискАналогов</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+		</Attribute>
+		<Attribute name="Дженерик" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Дженерик</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="Аналог" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Аналог</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:boolean</v8:Type>
+			</Type>
+		</Attribute>
+		<Attribute name="СписокПрепаратов" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список препаратов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Препарат" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Препарат</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Препараты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Аналог" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аналог</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Приоритет" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приоритет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Дженерик" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дженерик</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
+		</Attribute>
+		<Attribute name="Составитель" id="5">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Составитель</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+			</Type>
+		</Attribute>
+		<ConditionalAppearance>
+			<dcsset:item>
+				<dcsset:selection>
+					<dcsset:item>
+						<dcsset:field>ФормаПоиск</dcsset:field>
+					</dcsset:item>
+					<dcsset:item>
+						<dcsset:field>ФормаПоискРасширеннаяПодсказка</dcsset:field>
+					</dcsset:item>
+				</dcsset:selection>
+				<dcsset:filter>
+					<dcsset:item xsi:type="dcsset:FilterItemGroup">
+						<dcsset:groupType>AndGroup</dcsset:groupType>
+						<dcsset:item xsi:type="dcsset:FilterItemComparison">
+							<dcsset:left xsi:type="dcscor:Field">Объект.Препарат</dcsset:left>
+							<dcsset:comparisonType>NotFilled</dcsset:comparisonType>
+						</dcsset:item>
+						<dcsset:item xsi:type="dcsset:FilterItemGroup">
+							<dcsset:groupType>OrGroup</dcsset:groupType>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Аналог</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+							<dcsset:item xsi:type="dcsset:FilterItemComparison">
+								<dcsset:left xsi:type="dcscor:Field">Дженерик</dcsset:left>
+								<dcsset:comparisonType>Equal</dcsset:comparisonType>
+								<dcsset:right xsi:type="xs:boolean">false</dcsset:right>
+							</dcsset:item>
+						</dcsset:item>
+					</dcsset:item>
+				</dcsset:filter>
+				<dcsset:appearance>
+					<dcscor:item xsi:type="dcsset:SettingsParameterValue">
+						<dcscor:parameter>Доступность</dcscor:parameter>
+						<dcscor:value xsi:type="xs:boolean">false</dcscor:value>
+					</dcscor:item>
+				</dcsset:appearance>
+			</dcsset:item>
+		</ConditionalAppearance>
+	</Attributes>
+	<Commands>
+		<Command name="Поиск" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Поиск</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Поиск</Action>
+		</Command>
+		<Command name="Печать" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Печать</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Печать</Action>
+		</Command>
+		<Command name="ОчиститьВыбор" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить выбор</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Очистить выбор</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ОчиститьВыбор</Action>
+		</Command>
+	</Commands>
+</Form>

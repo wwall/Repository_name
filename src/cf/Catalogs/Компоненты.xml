@@ -1,34 +1,34 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.13">
-	<Catalog uuid="3bc7753c-51cb-4ef6-844f-4622023aa96d">
+	<Catalog uuid="1c26d9b2-ff9a-4034-824d-dbf1f96c2bef">
 		<InternalInfo>
-			<xr:GeneratedType name="CatalogObject.Диагнозы" category="Object">
-				<xr:TypeId>80e3b82a-579f-4398-9447-48446f7c38ec</xr:TypeId>
-				<xr:ValueId>bd831337-4475-4825-89e1-f5cb86d8a754</xr:ValueId>
+			<xr:GeneratedType name="CatalogObject.Компоненты" category="Object">
+				<xr:TypeId>d7baa1fe-031a-47bc-9ac4-8169362ccb0c</xr:TypeId>
+				<xr:ValueId>214607eb-e9ee-4fe5-a8e0-15f34d992c00</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogRef.Диагнозы" category="Ref">
-				<xr:TypeId>827d094d-f839-490f-ba17-ba8940ece93a</xr:TypeId>
-				<xr:ValueId>f34cd04a-0855-45ab-afaa-95a982f873b8</xr:ValueId>
+			<xr:GeneratedType name="CatalogRef.Компоненты" category="Ref">
+				<xr:TypeId>654bee3d-6389-406c-93b4-a2a7263704d0</xr:TypeId>
+				<xr:ValueId>d23732f4-c19f-4636-9102-cffaffe239c5</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogSelection.Диагнозы" category="Selection">
-				<xr:TypeId>a428b590-b7ad-47c4-9021-503ebdf8b08e</xr:TypeId>
-				<xr:ValueId>45682a7d-14fb-4a6a-83e8-ee091fdc0ee2</xr:ValueId>
+			<xr:GeneratedType name="CatalogSelection.Компоненты" category="Selection">
+				<xr:TypeId>e2fdd3e5-07e8-4ef1-b5e7-75eb22bd0b05</xr:TypeId>
+				<xr:ValueId>205db7f5-3c99-480f-9bbc-51e3873dbbce</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogList.Диагнозы" category="List">
-				<xr:TypeId>ef7cba34-b33e-481f-9b79-b052b21038fa</xr:TypeId>
-				<xr:ValueId>1d8bcbdf-0660-460e-9c3a-d08cf93dfb9f</xr:ValueId>
+			<xr:GeneratedType name="CatalogList.Компоненты" category="List">
+				<xr:TypeId>b17ab2c3-a383-463f-b755-9843cdbe4f43</xr:TypeId>
+				<xr:ValueId>d57d4563-0ced-45be-9673-d7561cc4b88f</xr:ValueId>
 			</xr:GeneratedType>
-			<xr:GeneratedType name="CatalogManager.Диагнозы" category="Manager">
-				<xr:TypeId>dc1e5faa-77ad-4839-a67a-b863fe1713b2</xr:TypeId>
-				<xr:ValueId>5914ed6d-dab5-466c-90cb-7420fa8868bb</xr:ValueId>
+			<xr:GeneratedType name="CatalogManager.Компоненты" category="Manager">
+				<xr:TypeId>dd54d9d6-4b9e-41b4-9251-24a4221151f6</xr:TypeId>
+				<xr:ValueId>916bb3a8-c0a3-4db0-bcbd-2477284cf0e8</xr:ValueId>
 			</xr:GeneratedType>
 		</InternalInfo>
 		<Properties>
-			<Name>Диагнозы</Name>
+			<Name>Компоненты</Name>
 			<Synonym>
 				<v8:item>
 					<v8:lang>ru</v8:lang>
-					<v8:content>Диагнозы</v8:content>
+					<v8:content>Компоненты</v8:content>
 				</v8:item>
 			</Synonym>
 			<Comment/>
@@ -41,7 +41,7 @@
 			<Owners/>
 			<SubordinationUse>ToItems</SubordinationUse>
 			<CodeLength>9</CodeLength>
-			<DescriptionLength>25</DescriptionLength>
+			<DescriptionLength>100</DescriptionLength>
 			<CodeType>String</CodeType>
 			<CodeAllowedLength>Variable</CodeAllowedLength>
 			<CodeSeries>WholeCatalog</CodeSeries>
@@ -252,7 +252,7 @@
 					<xr:Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Диагноз</v8:content>
+							<v8:content>Компонент</v8:content>
 						</v8:item>
 					</xr:Synonym>
 					<xr:Comment/>
@@ -295,8 +295,8 @@
 			<QuickChoice>false</QuickChoice>
 			<ChoiceMode>BothWays</ChoiceMode>
 			<InputByString>
-				<xr:Field>Catalog.Диагнозы.StandardAttribute.Description</xr:Field>
-				<xr:Field>Catalog.Диагнозы.StandardAttribute.Code</xr:Field>
+				<xr:Field>Catalog.Компоненты.StandardAttribute.Description</xr:Field>
+				<xr:Field>Catalog.Компоненты.StandardAttribute.Code</xr:Field>
 			</InputByString>
 			<SearchStringModeOnInputByString>Begin</SearchStringModeOnInputByString>
 			<FullTextSearchOnInputByString>DontUse</FullTextSearchOnInputByString>
@@ -327,47 +327,6 @@
 			<UpdateDataHistoryImmediatelyAfterWrite>false</UpdateDataHistoryImmediatelyAfterWrite>
 			<ExecuteAfterWriteDataHistoryVersionProcessing>false</ExecuteAfterWriteDataHistoryVersionProcessing>
 		</Properties>
-		<ChildObjects>
-			<Attribute uuid="56a5d7c5-0045-4055-a5f3-412758d920ae">
-				<Properties>
-					<Name>Симптомы</Name>
-					<Synonym>
-						<v8:item>
-							<v8:lang>ru</v8:lang>
-							<v8:content>Симптомы</v8:content>
-						</v8:item>
-					</Synonym>
-					<Comment/>
-					<Type>
-						<v8:Type>cfg:CatalogRef.Симптомы</v8:Type>
-					</Type>
-					<PasswordMode>false</PasswordMode>
-					<Format/>
-					<EditFormat/>
-					<ToolTip/>
-					<MarkNegatives>false</MarkNegatives>
-					<Mask/>
-					<MultiLine>false</MultiLine>
-					<ExtendedEdit>false</ExtendedEdit>
-					<MinValue xsi:nil="true"/>
-					<MaxValue xsi:nil="true"/>
-					<FillFromFillingValue>false</FillFromFillingValue>
-					<FillValue xsi:nil="true"/>
-					<FillChecking>DontCheck</FillChecking>
-					<ChoiceFoldersAndItems>Items</ChoiceFoldersAndItems>
-					<ChoiceParameterLinks/>
-					<ChoiceParameters/>
-					<QuickChoice>Auto</QuickChoice>
-					<CreateOnInput>Auto</CreateOnInput>
-					<ChoiceForm/>
-					<LinkByType/>
-					<ChoiceHistoryOnInput>Auto</ChoiceHistoryOnInput>
-					<Use>ForItem</Use>
-					<Indexing>DontIndex</Indexing>
-					<FullTextSearch>Use</FullTextSearch>
-					<DataHistory>Use</DataHistory>
-				</Properties>
-			</Attribute>
-		</ChildObjects>
+		<ChildObjects/>
 	</Catalog>
 </MetaDataObject>
