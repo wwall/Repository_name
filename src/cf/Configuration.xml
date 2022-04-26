@@ -221,6 +221,7 @@
 			<Subsystem>Администрирование</Subsystem>
 			<Style>Стиль</Style>
 			<Role>ПолныеПрава</Role>
+			<CommonModule>ОбщегоНазначенияКлиентСервер</CommonModule>
 			<Catalog>Симптомы</Catalog>
 			<Catalog>Противопоказания</Catalog>
 			<Catalog>ДопХарактиристикиПациента</Catalog>
@@ -241,6 +242,7 @@
 			<DataProcessor>ПодборЛС</DataProcessor>
 			<DataProcessor>ВводДанныхВБазу</DataProcessor>
 			<InformationRegister>РезультатЛечения</InformationRegister>
+			<InformationRegister>АналогиПрепаратов</InformationRegister>
 		</ChildObjects>
 	</Configuration>
 </MetaDataObject>

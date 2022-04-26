@@ -48,14 +48,21 @@
 			<Metadata name="Catalog.ФизЛица.Attribute.Телефон" id="bcbadfc2-922e-4c5c-b38f-5064108a4868"/>
 			<Metadata name="Catalog.ФизЛица.Attribute.ФИО" id="fd424e11-e2dc-4659-b701-4126c0174b4d"/>
 		</Metadata>
-		<Metadata name="Configuration.АС_Подбора_ЛС" id="7962971c-bb2d-413c-9ef4-00d8b47cc3cf" configVersion="dfc0d0cbd50d214d9975ec29a696ad0c00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер" id="49c6e27c-1945-4396-9a7b-3f898968b02b" configVersion="83872ac998de7041b92b3e5880a24f9d00000000"/>
+		<Metadata name="CommonModule.ОбщегоНазначенияКлиентСервер.Module" id="49c6e27c-1945-4396-9a7b-3f898968b02b.0" configVersion="20f7095a1b098a489c5b13d394e4a53b00000000"/>
+		<Metadata name="Configuration.АС_Подбора_ЛС" id="7962971c-bb2d-413c-9ef4-00d8b47cc3cf" configVersion="45f6eaf294a92247838e6aded567933800000000"/>
 		<Metadata name="Configuration.АС_Подбора_ЛС.ClientApplicationInterface" id="84b3e4e1-e909-4672-bfa0-661b287182f9.b" configVersion="89d29fe8c4768a4096df8f69c42675e800000000"/>
 		<Metadata name="Configuration.АС_Подбора_ЛС.HomePageWorkArea" id="84b3e4e1-e909-4672-bfa0-661b287182f9.8" configVersion="33f68921d2e2694fbdc8468a3db9e7b000000000"/>
-		<Metadata name="DataProcessor.ВводДанныхВБазу" id="d3d424fc-32d4-446a-9dfe-248a4b1a8da0" configVersion="3f62513e0b0f62438a38ceca85ebd92300000000"/>
+		<Metadata name="DataProcessor.ВводДанныхВБазу" id="d3d424fc-32d4-446a-9dfe-248a4b1a8da0" configVersion="0e62d92d8669ec458ac417816735897a00000000">
+			<Metadata name="DataProcessor.ВводДанныхВБазу.TabularSection.СписокАналогов.Attribute.Препарат" id="04940b3c-cbb9-411b-8db5-79a7eceab150"/>
+			<Metadata name="DataProcessor.ВводДанныхВБазу.TabularSection.СписокАналогов.Attribute.ЕстьОшибка" id="08e34e32-b8c6-4c58-aa6f-9c2c05714888"/>
+			<Metadata name="DataProcessor.ВводДанныхВБазу.TabularSection.СписокАналогов" id="767f400f-ae06-42b6-b4f3-42fabf52f1bb"/>
+			<Metadata name="DataProcessor.ВводДанныхВБазу.TabularSection.СписокАналогов.Attribute.Аналог" id="f6a8daa5-e038-49e0-9f53-89e9480996ff"/>
+		</Metadata>
 		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.Форма" id="1723dce2-ea83-4a4e-97c7-8ee4d195549d" configVersion="20b3821b41993a4eabe2a0e9de5c737600000000"/>
 		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.Форма.Form" id="1723dce2-ea83-4a4e-97c7-8ee4d195549d.0" configVersion="d6be79c5f347d347814448a4f57cdff400000000"/>
-		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов" id="80d00ac0-b524-4a00-91c2-e41f694f582e" configVersion="cd54682bf88a6643875e6ed03832bfa400000000"/>
-		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов.Form" id="80d00ac0-b524-4a00-91c2-e41f694f582e.0" configVersion="abec604676f0194cbdff2ea5aaafa58600000000"/>
+		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов" id="80d00ac0-b524-4a00-91c2-e41f694f582e" configVersion="e3a78923c1bdaa44aa0b1e1e522b450400000000"/>
+		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов.Form" id="80d00ac0-b524-4a00-91c2-e41f694f582e.0" configVersion="b182ea8dd76b924299ab575e77916b4f00000000"/>
 		<Metadata name="DataProcessor.ВводДанныхПациента" id="bb908640-4747-446d-aa4f-3c4f353874f9" configVersion="83a510c22a713c4d81415eb7293eaa8100000000">
 			<Metadata name="DataProcessor.ВводДанныхПациента.Attribute.Пол" id="0e58e7d6-a8ef-4d4a-b73a-822d306a360f"/>
 			<Metadata name="DataProcessor.ВводДанныхПациента.TabularSection.СхемыЛечений" id="15ba5d5d-e842-4231-bd63-84c4cd9fb5fc"/>
@@ -73,8 +80,8 @@
 		<Metadata name="DataProcessor.ПоискАналогов" id="a4925252-1692-4247-a178-49d4ccc2e839" configVersion="3272598425e08b40a9781d86297e8ddc00000000">
 			<Metadata name="DataProcessor.ПоискАналогов.Attribute.Препарат" id="5ba34ae1-6b6d-451e-9737-900d70fddb7a"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ПоискАналогов.Form.Форма" id="f1f30dcf-a338-4a9b-961c-08f20c1b7a24" configVersion="d01a0b5e23fd994a93a812262bb96c3400000000"/>
-		<Metadata name="DataProcessor.ПоискАналогов.Form.Форма.Form" id="f1f30dcf-a338-4a9b-961c-08f20c1b7a24.0" configVersion="ad961f0140731a4fa295301b52bbad5400000000"/>
+		<Metadata name="DataProcessor.ПоискАналогов.Form.Форма" id="f1f30dcf-a338-4a9b-961c-08f20c1b7a24" configVersion="d1709e4affd3a04bb79010dfb262610000000000"/>
+		<Metadata name="DataProcessor.ПоискАналогов.Form.Форма.Form" id="f1f30dcf-a338-4a9b-961c-08f20c1b7a24.0" configVersion="065edfab285ae44d9c6bef497b8e723500000000"/>
 		<Metadata name="DataProcessor.ПоискАналогов.ManagerModule" id="a4925252-1692-4247-a178-49d4ccc2e839.2" configVersion="e465739f75a1b6419374334a1113cef300000000"/>
 		<Metadata name="DataProcessor.ПоискАналогов.ObjectModule" id="a4925252-1692-4247-a178-49d4ccc2e839.0" configVersion="2a0b6976f5e877438ea9bc93ce31de1b00000000"/>
 		<Metadata name="DataProcessor.ПоискАналогов.Template.Макет" id="4caf3285-8e20-45b2-91e2-2f49efde4eb8" configVersion="1bc51e9f202ca1418fe1a3c14d670b5800000000"/>
@@ -111,6 +118,10 @@
 			<Metadata name="Enum.ФормыВыпуска.EnumValue.Капсулы" id="2431e3b0-ac7b-4fd2-9e90-c774e950c8b2"/>
 			<Metadata name="Enum.ФормыВыпуска.EnumValue.Драже" id="9c37149c-b584-41d5-904b-c02487f3d211"/>
 			<Metadata name="Enum.ФормыВыпуска.EnumValue.Таблетки" id="d5154d43-45c7-43c2-9295-a39901891117"/>
+		</Metadata>
+		<Metadata name="InformationRegister.АналогиПрепаратов" id="d4687ccd-4ea1-4d1e-950c-bb27e9215fcf" configVersion="1d4c50034fce9041adb021f8182372a600000000">
+			<Metadata name="InformationRegister.АналогиПрепаратов.Dimension.Аналог" id="303474cc-9be9-4dca-b832-3fc6fe57e57e"/>
+			<Metadata name="InformationRegister.АналогиПрепаратов.Dimension.Препарат" id="b9ef84ee-bb75-4efb-8c81-acd60177da4d"/>
 		</Metadata>
 		<Metadata name="InformationRegister.РезультатЛечения" id="1b91940e-8ae4-40fa-9207-a408f48bb006" configVersion="720e67e08001a644b458fd97c7c3275f00000000">
 			<Metadata name="InformationRegister.РезультатЛечения.Dimension.СхемаЛеченияКонкретногоПациента" id="87cc04a6-41e6-4129-abea-4024a3a4ce55"/>
