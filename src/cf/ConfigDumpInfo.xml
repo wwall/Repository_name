@@ -30,7 +30,7 @@
 			<Metadata name="Catalog.Препараты.TabularSection.Состав.Attribute.Компонент" id="fca860e1-4da5-4277-b63b-140e6bd3eb06"/>
 		</Metadata>
 		<Metadata name="Catalog.Противопоказания" id="e4489172-0ccf-4e96-b69c-c9300bb639f5" configVersion="484b23466f49a442a822c44ab5c05cf200000000"/>
-		<Metadata name="Catalog.Симптомы" id="cb60f062-aee1-4bff-83f0-b132bda8b250" configVersion="184de710c18d714dbf7d46a72ce855b300000000"/>
+		<Metadata name="Catalog.Симптомы" id="cb60f062-aee1-4bff-83f0-b132bda8b250" configVersion="2fe5e8c4e3ca4f4cbd7302237b20d92e00000000"/>
 		<Metadata name="Catalog.СхемаЛечения" id="597e572c-440b-4a91-96e2-54219e1ad7bf" configVersion="849b3c6ee10256439ce20db4480b8f5200000000">
 			<Metadata name="Catalog.СхемаЛечения.TabularSection.Схема" id="4b8226d6-8382-4b05-9dba-a073a314c7b2"/>
 			<Metadata name="Catalog.СхемаЛечения.TabularSection.Схема.Attribute.Длительность" id="52559085-5ec1-4402-b0c3-2a8715648502"/>
