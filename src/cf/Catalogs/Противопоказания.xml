@@ -31,7 +31,7 @@
 					<v8:content>Противопоказания</v8:content>
 				</v8:item>
 			</Synonym>
-			<Comment/>
+			<Comment>Противопоказания</Comment>
 			<Hierarchical>false</Hierarchical>
 			<HierarchyType>HierarchyFoldersAndItems</HierarchyType>
 			<LimitLevelCount>false</LimitLevelCount>
