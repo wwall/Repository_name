@@ -99,6 +99,12 @@
 				</CheckBoxField>
 			</ChildItems>
 		</Table>
+		<Button name="СоздатьСхемуЛеченияПациента" id="49">
+			<Type>UsualButton</Type>
+			<GroupHorizontalAlign>Right</GroupHorizontalAlign>
+			<CommandName>Form.Command.СоздатьСхемуЛеченияПациента</CommandName>
+			<ExtendedTooltip name="СоздатьСхемуЛеченияПациентаРасширеннаяПодсказка" id="50"/>
+		</Button>
 	</ChildItems>
 	<Attributes>
 		<Attribute name="Объект" id="1">
@@ -151,6 +157,20 @@
 				</v8:item>
 			</ToolTip>
 			<Action>НайтиСхемыЛечения</Action>
+		</Command>
+		<Command name="СоздатьСхемуЛеченияПациента" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать схему лечения пациента</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Создать схему лечения пациента</v8:content>
+				</v8:item>
+			</ToolTip>
 		</Command>
 	</Commands>
 </Form>
