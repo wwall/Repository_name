@@ -61,8 +61,8 @@
 		</Metadata>
 		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.Форма" id="1723dce2-ea83-4a4e-97c7-8ee4d195549d" configVersion="20b3821b41993a4eabe2a0e9de5c737600000000"/>
 		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.Форма.Form" id="1723dce2-ea83-4a4e-97c7-8ee4d195549d.0" configVersion="d6be79c5f347d347814448a4f57cdff400000000"/>
-		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов" id="80d00ac0-b524-4a00-91c2-e41f694f582e" configVersion="e3a78923c1bdaa44aa0b1e1e522b450400000000"/>
-		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов.Form" id="80d00ac0-b524-4a00-91c2-e41f694f582e.0" configVersion="b182ea8dd76b924299ab575e77916b4f00000000"/>
+		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов" id="80d00ac0-b524-4a00-91c2-e41f694f582e" configVersion="d0e3e7f490f01246b3eb711f36092a6500000000"/>
+		<Metadata name="DataProcessor.ВводДанныхВБазу.Form.ФормаАналогов.Form" id="80d00ac0-b524-4a00-91c2-e41f694f582e.0" configVersion="1c249fa5f1d311469746eb5af206572400000000"/>
 		<Metadata name="DataProcessor.ВводДанныхПациента" id="bb908640-4747-446d-aa4f-3c4f353874f9" configVersion="83a510c22a713c4d81415eb7293eaa8100000000">
 			<Metadata name="DataProcessor.ВводДанныхПациента.Attribute.Пол" id="0e58e7d6-a8ef-4d4a-b73a-822d306a360f"/>
 			<Metadata name="DataProcessor.ВводДанныхПациента.TabularSection.СхемыЛечений" id="15ba5d5d-e842-4231-bd63-84c4cd9fb5fc"/>
@@ -72,8 +72,8 @@
 			<Metadata name="DataProcessor.ВводДанныхПациента.Attribute.Возраст" id="ce51bffc-fdc5-4887-8098-5015da514ee4"/>
 			<Metadata name="DataProcessor.ВводДанныхПациента.Attribute.Диагноз" id="eda1de16-edc2-47f0-a4ef-adf2b17ba73f"/>
 		</Metadata>
-		<Metadata name="DataProcessor.ВводДанныхПациента.Form.Форма" id="7ffe39d3-b60c-4a69-bc9d-982e31001a54" configVersion="f0d66bd0f72a46489b2d23e6a671011600000000"/>
-		<Metadata name="DataProcessor.ВводДанныхПациента.Form.Форма.Form" id="7ffe39d3-b60c-4a69-bc9d-982e31001a54.0" configVersion="6bfa3d950d964f4dbb3091a53be79d7300000000"/>
+		<Metadata name="DataProcessor.ВводДанныхПациента.Form.Форма" id="7ffe39d3-b60c-4a69-bc9d-982e31001a54" configVersion="d01bbc9b61df94458bdfdd23abccb65a00000000"/>
+		<Metadata name="DataProcessor.ВводДанныхПациента.Form.Форма.Form" id="7ffe39d3-b60c-4a69-bc9d-982e31001a54.0" configVersion="72396652bf4ec24cb2f7051cfafa90b000000000"/>
 		<Metadata name="DataProcessor.ПодборЛС" id="f0d3f8f0-faee-4705-ba58-25f905d66f16" configVersion="e55100e4200f574f85a2bacaed687b8d00000000"/>
 		<Metadata name="DataProcessor.ПодборЛС.Form.Форма" id="203daa96-dd84-48a2-9d3b-fffaeabb7ea3" configVersion="66b51aa8226a1648ac2f50e839aba8a200000000"/>
 		<Metadata name="DataProcessor.ПодборЛС.Form.Форма.Form" id="203daa96-dd84-48a2-9d3b-fffaeabb7ea3.0" configVersion="85ff98f76b53184cbf5d2d5097a8f55f00000000"/>
@@ -135,6 +135,6 @@
 		<Metadata name="Subsystem.Администрирование" id="e5ec2033-3b78-4d19-93f6-4a2950f4cd8b" configVersion="24cb736d616c8c4bb537684e562ac9a300000000"/>
 		<Metadata name="Subsystem.ВводДанныхЛечения" id="c0cc076a-55bf-4804-b4d9-3e7c1df07fd2" configVersion="3ee121f00bdf4e4b838bc6a3d7e019e100000000"/>
 		<Metadata name="Subsystem.Отчеты" id="20da6c2c-c34a-48bc-988c-f6c28d10a342" configVersion="f47b358fa41b394f95535bc687e27dbd00000000"/>
-		<Metadata name="Subsystem.СправочнаяИнформация" id="26997c80-9e8b-4388-8f5d-20669b4a3de3" configVersion="558601cbeb5d6548b815bb026c6f2ed300000000"/>
+		<Metadata name="Subsystem.СправочнаяИнформация" id="26997c80-9e8b-4388-8f5d-20669b4a3de3" configVersion="45da86f80efeb94d9bbadb838a08315700000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>

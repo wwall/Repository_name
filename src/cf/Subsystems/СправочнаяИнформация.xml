@@ -23,6 +23,8 @@
 				<xr:Item xsi:type="xr:MDObjectRef">DataProcessor.ПоискАналогов</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.СхемаЛечения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Компоненты</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Противопоказания</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Симптомы</xr:Item>
 			</Content>
 		</Properties>
 		<ChildObjects/>

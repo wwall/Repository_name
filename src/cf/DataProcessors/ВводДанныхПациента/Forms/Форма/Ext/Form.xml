@@ -150,6 +150,7 @@
 					<v8:content>Найти схемы лечения</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Action>НайтиСхемыЛечения</Action>
 		</Command>
 	</Commands>
 </Form>
