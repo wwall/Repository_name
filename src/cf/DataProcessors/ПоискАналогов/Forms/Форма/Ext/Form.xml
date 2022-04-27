@@ -106,22 +106,10 @@
 		</UsualGroup>
 		<Table name="СписокПрепаратов" id="17">
 			<Representation>List</Representation>
-			<ReadOnly>true</ReadOnly>
-			<ChangeRowSet>false</ChangeRowSet>
-			<ChangeRowOrder>false</ChangeRowOrder>
 			<AutoInsertNewRow>true</AutoInsertNewRow>
 			<EnableStartDrag>true</EnableStartDrag>
 			<EnableDrag>true</EnableDrag>
-			<DataPath>Объект.СписокПрепаратов</DataPath>
-			<CommandSet>
-				<ExcludedCommand>Add</ExcludedCommand>
-				<ExcludedCommand>Change</ExcludedCommand>
-				<ExcludedCommand>Copy</ExcludedCommand>
-				<ExcludedCommand>Delete</ExcludedCommand>
-				<ExcludedCommand>EndEdit</ExcludedCommand>
-				<ExcludedCommand>MoveDown</ExcludedCommand>
-				<ExcludedCommand>MoveUp</ExcludedCommand>
-			</CommandSet>
+			<DataPath>СписокПрепаратов</DataPath>
 			<RowFilter xsi:nil="true"/>
 			<ContextMenu name="СписокПрепаратовКонтекстноеМеню" id="18"/>
 			<AutoCommandBar name="СписокПрепаратовКоманднаяПанель" id="19">
@@ -156,37 +144,31 @@
 				<Event name="OnChange">СписокПрепаратовПриИзменении</Event>
 			</Events>
 			<ChildItems>
-				<LabelField name="СписокПрепаратовНомерСтроки" id="70">
-					<DataPath>Объект.СписокПрепаратов.LineNumber</DataPath>
+				<InputField name="СписокПрепаратовПрепарат" id="30">
+					<DataPath>СписокПрепаратов.Препарат</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокПрепаратовНомерСтрокиКонтекстноеМеню" id="71"/>
-					<ExtendedTooltip name="СписокПрепаратовНомерСтрокиРасширеннаяПодсказка" id="72"/>
-				</LabelField>
-				<InputField name="СписокПрепаратовПрепарат" id="73">
-					<DataPath>Объект.СписокПрепаратов.Препарат</DataPath>
-					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокПрепаратовПрепаратКонтекстноеМеню" id="74"/>
-					<ExtendedTooltip name="СписокПрепаратовПрепаратРасширеннаяПодсказка" id="75"/>
+					<ContextMenu name="СписокПрепаратовПрепаратКонтекстноеМеню" id="31"/>
+					<ExtendedTooltip name="СписокПрепаратовПрепаратРасширеннаяПодсказка" id="32"/>
 				</InputField>
-				<CheckBoxField name="СписокПрепаратовАналог" id="76">
-					<DataPath>Объект.СписокПрепаратов.Аналог</DataPath>
+				<CheckBoxField name="СписокПрепаратовАналог" id="33">
+					<DataPath>СписокПрепаратов.Аналог</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="СписокПрепаратовАналогКонтекстноеМеню" id="77"/>
-					<ExtendedTooltip name="СписокПрепаратовАналогРасширеннаяПодсказка" id="78"/>
+					<ContextMenu name="СписокПрепаратовАналогКонтекстноеМеню" id="34"/>
+					<ExtendedTooltip name="СписокПрепаратовАналогРасширеннаяПодсказка" id="35"/>
 				</CheckBoxField>
-				<InputField name="СписокПрепаратовПриоритет" id="79">
-					<DataPath>Объект.СписокПрепаратов.Приоритет</DataPath>
+				<InputField name="СписокПрепаратовПриоритет" id="36">
+					<DataPath>СписокПрепаратов.Приоритет</DataPath>
 					<EditMode>EnterOnInput</EditMode>
-					<ContextMenu name="СписокПрепаратовПриоритетКонтекстноеМеню" id="80"/>
-					<ExtendedTooltip name="СписокПрепаратовПриоритетРасширеннаяПодсказка" id="81"/>
+					<ContextMenu name="СписокПрепаратовПриоритетКонтекстноеМеню" id="37"/>
+					<ExtendedTooltip name="СписокПрепаратовПриоритетРасширеннаяПодсказка" id="38"/>
 				</InputField>
-				<CheckBoxField name="СписокПрепаратовДженерик" id="82">
-					<DataPath>Объект.СписокПрепаратов.Дженерик</DataPath>
+				<CheckBoxField name="СписокПрепаратовДженерик" id="39">
+					<DataPath>СписокПрепаратов.Дженерик</DataPath>
 					<EditMode>EnterOnInput</EditMode>
 					<CheckBoxType>Auto</CheckBoxType>
-					<ContextMenu name="СписокПрепаратовДженерикКонтекстноеМеню" id="83"/>
-					<ExtendedTooltip name="СписокПрепаратовДженерикРасширеннаяПодсказка" id="84"/>
+					<ContextMenu name="СписокПрепаратовДженерикКонтекстноеМеню" id="40"/>
+					<ExtendedTooltip name="СписокПрепаратовДженерикРасширеннаяПодсказка" id="41"/>
 				</CheckBoxField>
 			</ChildItems>
 		</Table>
@@ -243,6 +225,68 @@
 			<Type>
 				<v8:Type>xs:boolean</v8:Type>
 			</Type>
+		</Attribute>
+		<Attribute name="СписокПрепаратов" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Список препаратов</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>v8:ValueTable</v8:Type>
+			</Type>
+			<Columns>
+				<Column name="Препарат" id="1">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Препарат</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Препараты</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Аналог" id="2">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Аналог</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+				<Column name="Приоритет" id="3">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Приоритет</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>3</v8:Digits>
+							<v8:FractionDigits>0</v8:FractionDigits>
+							<v8:AllowedSign>Any</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Column>
+				<Column name="Дженерик" id="4">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Дженерик</v8:content>
+						</v8:item>
+					</Title>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Column>
+			</Columns>
 		</Attribute>
 		<Attribute name="Составитель" id="5">
 			<Title>
